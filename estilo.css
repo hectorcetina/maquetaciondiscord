@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+  /* border: 1px red solid; */
+}
+.contenedor1 {
+  padding: 15px;
+}
+.parrafo1 {
+  width: 300px;
+  float: left;
+  border: 1px #333 solid;
+  background-color: #cccc;
+  padding: 15px;
+  border-radius: 10px;
+}
+.parrafo2 {
+  width: 200px;
+  border: 1px #333 solid;
+  float: right;
+  background-color: #cccc;
+  padding: 15px;
+  border-radius: 10px;
+}
+.parrafo3 {
+  width: 500px;
+  border: 1px #333 solid;
+  clear: both;
+}
+.logo {
+  width: 100px;
+  float: left;
+}
+.menu {
+  width: 940px;
+  float: left;
+  text-align: center;
+  padding-top: 10px;
+}
+.menu a {
+  color: #404eed;
+  text-decoration: none;
+  margin-right: 50px;
+  padding: 5px;
+  display: inline-block;
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+.menu a:nth-child(7) {
+  margin-right: 0px;
+}
+.btn_blanco {
+  background-color: #404eed;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 40px;
+  text-decoration: none;
+  display: inline-block;
+  float: right;
+}
+.contenedor_imagina {
+  clear: both;
+  background-color: #404eed;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.contenedor_imagina h1 {
+  font-size: 40px;
+  padding: 20px;
+}
+.contenedor_imagina p {
+  width: 600px;
+  margin: auto;
+}
+.botones {
+  padding: 15px;
+}
+.btn_blanco2 {
+  background-color: white;
+  color: #404eed;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 40px;
+  display: inline-block;
+}
+.btn_negro {
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 40px;
+  display: inline-block;
+}
+.contenedor_crea {
+}
+.foto2 {
+  display: inline-block;
+  width: 600px;
+  vertical-align: middle;
+}
+.info1 {
+  display: inline-block;
+  width: 450px;
+  vertical-align: middle;
+  margin-left: 100px;
+}
+.titulo1 {
+  font-size: 40px;
+  line-height: 58px;
+}
+.parrafos {
+  font-size: 18px;
+  color: #23272a;
+  line-height: 33px;
+}
+.info2 {
+  width: 100%;
+  clear: both;
+  background-color: #ccc;
+}
+.contenedor_donde {
+  width: 450px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.foto3 {
+  width: 600px;
+  display: inline-block;
+  margin-left: 100px;
+  vertical-align: middle;
+}
+
+.gris {
+  background-color: #ccc;
+}
+.contenedor_tecnologia {
+  text-align: center;
+}
+.tipografia2 {
+  font-family: impact;
+  font-size: 40px;
+  padding-top: 30px;
+}
+.btn_morado {
+  background-color: #404eed;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 40px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+.contenedor_final {
+  background-color: #23272a;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+.morado {
+  color: #404eed;
+}
+.contenedorlogoabajo {
+  width: 100%;
+}
+.logoabajo {
+  width: 100px;
+  vertical-align: middle;
+}
